@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <!-- 導入font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+  <title>MIAT-DDS閘道器</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets\\img\\icon.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Yummy - v1.1.0
+  * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center bg-dark ">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex ">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets\\img\\icon-trasparent.png" class="align-items-center " alt="...">
+        <h1 class="text-nowrap text-white my-auto">DDS閘道器<span>.</span></h1>
+      </a>
+      <nav id="navbar" class="navbar ">
+        <ul>
+          <li><a href="status.html" class="text-center text-white">Status</a></li>
+          <li><a href="settings.html"class="text-center text-white">Settings</a></li>
+          <li><a href="topic.html"class="text-center text-white">Topic</a></li>
+          <li><a href="team.html"class="text-center text-white">Team</a></li>
+        </ul>
+      </nav>
+      <!-- .navbar -->
+        
+      
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- STATUS -->
+  <section id="hero" class="hero bg-light">
+    <div class="container" data-aos="fade-up">
+      <form action="forms/contact.php" method="post" role="form" class="php-email-form border-radius">
+      <!-- p-3 p-md-4 m-3 -->
+        <!-- Status --> 
+        <div class="row">
+          <div class="col-lg-4">
+            <h2 class=" text-lg-start">Status</h2>
+          </div>
+          <div class="col-lg-8"></div>
+        </div> 
+        <hr class="style-six">
+        
+        <!-- Admin Password -->
+        <div class="row my-2 py-2 d-flex align-items-center">
+          <div class="col-lg-4">
+            <h4>Admin Password</h4>
+          </div>
+          <div class="col-lg-8">
+            <div class="col-auto form-group input-group input-group-lg" >
+              <input type="text" name="name" class="form-control" id="name" placeholder="請輸入Admin Password" required>
+            </div>
+          </div>
+        </div>
+        <hr class="style-seven">
+        
+        <!-- Confirm Password -->
+        <div class="row my-2 py-2 d-flex align-items-centers">
+          <div class="col-lg-4">
+            <h4>Confirm Password</h4>
+          </div>
+          <div class="col-lg-8">
+            <div class="col-auto form-group input-group input-group-lg" >
+              <input type="text" name="name" class="form-control" id="name" placeholder="請輸入Confirm Password" required>
+            </div>
+          </div>
+        </div>
+        <hr class="style-seven">
+
+        <!-- Auto Reset (Minutes) -->
+        <div class="row my-2 py-2 d-flex align-items-center">
+          <div class="col-lg-4">
+            <h4 class="">Auto Reset(Minutes)</h4>
+          </div>
+          <div class="col-lg-8">
+            <div class="col-auto form-group input-group input-group-lg" >
+              <input type="text" name="name" class="form-control" id="name" placeholder="請輸入Auto Reset(Minutes)" required>
+            </div>
+          </div>
+        </div>
+        <hr class="style-seven">
+
+        <!-- Device(host) Name -->
+        <div class="row my-2 py-2 d-flex align-items-center">
+          <div class="col-lg-4">
+            <h4 class="">Device(host) Name</h4>
+          </div>
+          <div class="col-lg-8">
+            <div class="col-auto form-group input-group input-group-lg" >
+              <input type="text" name="name" class="form-control" id="name" placeholder="請輸入Device(host) Name" required>
+            </div>
+          </div>
+        </div>
+        <hr class="style-seven">
+
+        <!-- Description -->
+        <div class="row my-2 py-2 d-flex align-items-center">
+          <div class="col-lg-4">
+            <h4 class="">Description</h4>
+          </div>
+          <div class="col-lg-8">
+            <div class="col-auto form-group input-group input-group-lg" >
+              <input type="text" name="name" class="form-control" id="name" placeholder="請輸入Description" required>
+            </div>
+          </div>
+        </div>
+        <hr class="style-seven">
+
+        <!-- Reportinfo -->
+        <div class="row my-2 py-2 d-flex align-items-center">
+          <div class="col-lg-4">
+            <h4 class="">Reportinfo</h4>
+          </div>
+          <div class="col-lg-8">
+            <div class="col-auto form-group input-group input-group-lg" >
+              <input type="text" name="name" class="form-control" id="name" placeholder="請輸入Reportinfo" required>
+            </div>
+          </div>
+        </div>
+        <hr class="style-seven">
+
+
+
+        <!-- Ethernet --> 
+        <div class="row mt-5">
+          <div class="col-lg-4">
+            <h2 class=" text-lg-start">Ethernet</h2>
+          </div>
+          <div class="col-lg-8"></div>
+        </div> 
+        <hr class="style-six">
+
+        <!-- Ethernet Mode -->
+        <div class="row my-2 py-2 d-flex align-items-center">
+          <div class="col-lg-4">
+            <h4>Ethernet Mode</h4>
+          </div>
+          <div class="col-lg-8">
+            <div class="col-auto form-group input-group input-group-lg" >
+              <input type="text" name="name" class="form-control" id="name" placeholder="請輸入Ethernet Mode" required>
+            </div>
+          </div>
+        </div>
+        <hr class="style-seven">
+
+        <!-- Ethernet IP -->
+        <div class="row my-2 py-2 d-flex align-items-centers">
+          <div class="col-lg-4">
+            <h4>Ethernet IP</h4>
+          </div>
+          <div class="col-lg-8">
+            <div class="col-auto form-group input-group input-group-lg" >
+              <input type="text" name="name" class="form-control" id="name" placeholder="請輸入Ethernet IP" required>
+            </div>
+          </div>
+        </div>
+        <hr class="style-seven">
+
+        <!-- Ethernet Mask -->
+        <div class="row my-2 py-2 d-flex align-items-center">
+          <div class="col-lg-4">
+            <h4 class="">Ethernet Mask</h4>
+          </div>
+          <div class="col-lg-8">
+            <div class="col-auto form-group input-group input-group-lg" >
+              <input type="text" name="name" class="form-control" id="name" placeholder="請輸入Ethernet Mask" required>
+            </div>
+          </div>
+        </div>
+        <hr class="style-seven">
+
+        <!-- Ethernet Gatway -->
+        <div class="row my-2 py-2 d-flex align-items-center">
+          <div class="col-lg-4">
+            <h4 class="">Ethernet Gatway</h4>
+          </div>
+          <div class="col-lg-8">
+            <div class="col-auto form-group input-group input-group-lg" >
+              <input type="text" name="name" class="form-control" id="name" placeholder="請輸入Ethernet Gatway" required>
+            </div>
+          </div>
+        </div>
+        <hr class="style-seven">
+
+        <!-- Ethernet DNS -->
+        <div class="row my-2 py-2 d-flex align-items-center">
+          <div class="col-lg-4">
+            <h4 class="">Ethernet DNS</h4>
+          </div>
+          <div class="col-lg-8">
+            <div class="col-auto form-group input-group input-group-lg" >
+              <input type="text" name="name" class="form-control" id="name" placeholder="請輸入Ethernet DNS" required>
+            </div>
+          </div>
+        </div>
+        <hr class="style-seven">
+
+        <!-- Ethernet Mac -->
+        <div class="row my-2 py-2 d-flex align-items-center">
+          <div class="col-lg-4">
+            <h4 class="">Ethernet Mac</h4>
+          </div>
+          <div class="col-lg-8">
+            <div class="col-auto form-group input-group input-group-lg" >
+              <input type="text" name="name" class="form-control" id="name" placeholder="請輸入Ethernet Mac" required>
+            </div>
+          </div>
+        </div>
+        <hr class="style-seven">
+
+
+
+        <!-- Wireless --> 
+        <div class="row mt-5">
+          <div class="col-lg-4">
+            <h2 class=" text-lg-start">Wireless</h2>
+          </div>
+          <div class="col-lg-8"></div>
+        </div> 
+        <hr class="style-six">
+
+        <!-- WiFi Type -->
+        <div class="row my-2 py-2 d-flex align-items-center">
+          <div class="col-lg-4">
+            <h4>WiFi Type</h4>
+          </div>
+          <div class="col-lg-8">
+            <div class="col-auto form-group input-group input-group-lg" >
+              <input type="text" name="name" class="form-control" id="name" placeholder="請輸入WiFi Type" required>
+            </div>
+          </div>
+        </div>
+        <hr class="style-seven">
+
+        <!-- SSID -->
+        <div class="row my-2 py-2 d-flex align-items-centers">
+          <div class="col-lg-4">
+            <h4>SSID</h4>
+          </div>
+          <div class="col-lg-8">
+            <div class="col-auto form-group input-group input-group-lg" >
+              <input type="text" name="name" class="form-control" id="name" placeholder="請輸入SSID" required>
+            </div>
+          </div>
+        </div>
+        <hr class="style-seven">
+
+        <!-- Mode -->
+        <div class="row my-2 py-2 d-flex align-items-center">
+          <div class="col-lg-4">
+            <h4 class="">Mode</h4>
+          </div>
+          <div class="col-lg-8">
+            <div class="col-auto form-group input-group input-group-lg" >
+              <input type="text" name="name" class="form-control" id="name" placeholder="請輸入Mode" required>
+            </div>
+          </div>
+        </div>
+        <hr class="style-seven">
+
+        <!-- Encrypt Mode -->
+        <div class="row my-2 py-2 d-flex align-items-center">
+          <div class="col-lg-4">
+            <h4 class="">Encrypt Mode</h4>
+          </div>
+          <div class="col-lg-8">
+            <div class="col-auto form-group input-group input-group-lg" >
+              <input type="text" name="name" class="form-control" id="name" placeholder="請輸入Encrypt Mode" required>
+            </div>
+          </div>
+        </div>
+        <hr class="style-seven">
+
+        <!-- WiFi IP -->
+        <div class="row my-2 py-2 d-flex align-items-center">
+          <div class="col-lg-4">
+            <h4 class="">WiFi IP</h4>
+          </div>
+          <div class="col-lg-8">
+            <div class="col-auto form-group input-group input-group-lg" >
+              <input type="text" name="name" class="form-control" id="name" placeholder="請輸入WiFi IP" required>
+            </div>
+          </div>
+        </div>
+        <hr class="style-seven">
+
+
+
+        <!-- Button connect -->
+        <div class="row  my-2 py-2 d-flex align-items-center">
+          <div class="col-lg-4">
+            <button type="button" class="btn btn-primary btn-lg text-nowrap rounded-pill">Connect</button>
+          </div>
+          <div class="col-lg-8">
+            <div class="col-auto form-group input-group input-group-lg"></div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  
+  
+  <!-- End Hero Section -->
+
+  <main id="main">
+
+  
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div>
+            <h4>Address</h4>
+            <p>
+              320桃園市中壢區中大路300號 <br>
+              國立中央大學<br>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Reservations</h4>
+            <p>
+              <strong>Phone: 03-422-7151 </strong> <br>
+              <strong>Email: ncu4500@ncu.edu.tw</strong> <br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Opening Hours</h4>
+            <p>
+              <strong>Mon-Sat: 8AM</strong> - 17PM<br>
+              Saturday,Sunday: Closed
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Follow Us</h4>
+          <div class="social-links d-flex">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Yummy</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
